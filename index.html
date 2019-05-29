@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paint the circles</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src=script.js></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <form id="circle" name="paint_circle" action="circle.php" onsubmit="return submit_func()" method="GET">
+                <h4>Image width (px):</h4>
+                <input id="width" type="text" name="width" placeholder="Only number and bigger than 0" required/>
+
+                <h4>Image heigth (px):</h4>
+                <input id="heigth" type="text" name="heigth" placeholder="Only number and bigger than 0" required/>
+
+                <h4>Circle radius (px):</h4>
+                <input id="radius" type="text" name="radius" placeholder="Only number and bigger than 0" required/>
+                <p class="condition">You should input radius less than half</br>of width and half of heigth.</p>
+
+                <h4>Amount of circles on the image:
+                    <select id="selection" name="circle_amount" required>
+                        <option disabled selected></option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                    </select>
+                </h4>
+                <button type="submit">Generate image</button>
+            </form>
+        </div>
+    </body>
+</html>
