@@ -6,6 +6,6 @@ The user need to enter image width, heigth, circle radius and also amounts of ci
 
 Then the center of each circle will be randomly defined as well as the circles' color. So when you update the page you will always see new image.
 
-![Alt-picture](https://github.com/o-maslova/php_test/pictures/form.png "Form")
+![Alt-picture](https://github.com/o-maslova/php_test/blob/master/pictures/form.png "Form")
 
-![Alt-picture](https://github.com/o-maslova/php_test/pictures/result.png "Result")
+![Alt-picture](https://github.com/o-maslova/php_test/blob/master/pictures/result.png "Result")
